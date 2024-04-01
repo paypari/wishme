@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  background-image: url('./collage.jpg'); /* Add the background image URL here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  position: relative;
+  text-transform: capitalize;
+    text-shadow: 1px 1px 1px gray, 2px 2px 1px gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.birthday-wish {
+  margin-top: 20px;
+  margin-left: 22%; /* Adjust margins as needed */
+  margin-right: 29%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify; 
+  color: purple; 
+}
+
+.images-container {
+  display: none; /* Hide the images container */
+}
+
